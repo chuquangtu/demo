@@ -1,0 +1,6 @@
+RewriteEngine On
+DirectoryIndex infor_user.php
+RewriteRule "dang-nhap" "login.php"
+RewriteRule "dang-ky" "signup.php"
+RewriteRule ^([a-zA-Z0-9_-]+)$ infor_user.php?user=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ infor_user.php?user=$1
