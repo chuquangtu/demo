@@ -35,7 +35,7 @@ require '../header.php';
 		</div>
 	</form>
 	<div class="col-md-3 col-lg-3 col-xs-3">
-		<a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a>
+		<a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Tìm kiếm nhanh</a>
 		<div class="modal fade" id="modal-id">
 			<div class="modal-dialog" style="color: ">
 				<div class="modal-content" style=" background:#f1f1f1 ;">
